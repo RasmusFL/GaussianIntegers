@@ -11,6 +11,7 @@ int main()
     cout << alpha - beta << endl;
     cout << alpha * beta << endl;
     cout << beta / alpha << endl;
+    cout << beta % alpha << endl;
     cout << GIgcd({347, 89}, {117, -547}) << endl;
     vector<GI> v = GIexgcd({347, 89}, {117, -547});
     for (GI a : v)
