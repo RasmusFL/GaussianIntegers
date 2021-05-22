@@ -41,7 +41,10 @@ becomes
 ```c++
 1+2i
 ```
-because -3 + 5i = (1 + 2i)(1 + 2i) + i. 
+because -3 + 5i = (1 + 2i)(1 + 2i) + i. The modulo operator % also works as intended:
+```c++
+cout << beta % alpha; // outputs i
+```
 
 # Some examples of usage
 
