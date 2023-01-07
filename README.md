@@ -77,7 +77,7 @@ And we can verify that (347 + 89i)(522 + 436i) = 117 - 547i modulo 2003. On the 
 ```c++
 GImodlinearsolve({347, 89}, {117, -547}, {2003}); // outputs "No solution to equation (347+89i)rho = 117-547i (mod 1+2i)"
 ```
-The function `GIprimefactor` factors a Gaussian integer into a product og primes and a single unit (1, -1, i or -i). The output is a vector of these Gaussian integers. To write the factorization in a nice way as a product, use the function `printGIproduct`. As an example,
+The function `GIprimefactor` factors a Gaussian integer into a product of primes and a single unit (1, -1, i or -i). The output is a vector of these Gaussian integers. To write the factorization in a nice way as a product, use the function `printGIproduct`. As an example,
 
 ```c++
 printGIproduct(GIprimefactor({1284, -418764}));
